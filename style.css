@@ -1,0 +1,68 @@
+.game {
+    width: 600px;
+    height: 200px;
+    border-bottom:1px solid black;
+margin: auto;
+}
+#biden {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/biden.png);
+    background-size: 50px 50px;
+    position: relative;
+top: 150px;
+
+}
+#pen {
+    width: 20px;
+    height: 40px;
+    background-image: url("img/pen.png");
+    background-size: 20px 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+animation: penMov 2.5s infinite linear;
+}
+@keyframes penMov {
+    0% {
+        left: 580px;
+
+    }
+    100% {
+        left: -20px;
+    }
+}
+.jump {
+    animation: jump 1s linear;
+}
+@keyframes jump {
+    0% {
+        top: 150px;
+
+    }
+    15% {
+        top:10px ;
+    }
+    30% {
+        top:20px
+    }
+    50% {
+        top: 30px;
+    }
+    60% {
+        top: 40px;
+    }
+    70% {
+        top: 60px;
+    }
+    80% {
+        top: 80px;
+    }
+    90% {
+        top: 90px;
+    }
+    100% {
+        top: 150px;
+    }
+
+}
