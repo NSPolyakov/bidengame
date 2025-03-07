@@ -19,7 +19,7 @@ const biden=document.getElementById("biden");
         let penLeft = parseInt(window.getComputedStyle(pen).getPropertyValue("left"));
 
         if (penLeft < 50 && penLeft > 0 && bidenTop >= 150) {
-            alert("БАЙДЕН ЛОХ!!!")
+            alert("ЗАРЕГИСТРИРОВАНО!!!")
         }
     }, 10)
 
